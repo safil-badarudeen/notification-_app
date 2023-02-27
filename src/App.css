@@ -1,9 +1,11 @@
 .container{
-  height:100vh;
+  
   display:flex;
   flex-direction:row;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border-color: blue;
+  border:2px;   */
   
 }
 
@@ -29,4 +31,12 @@ button{
   border:none;
   border-radius : 5px;
   cursor: pointer;
+}
+
+.username{
+  font-weight:bold;
+  position:absolute;
+  color:lightseagreen;
+  top:15px;
+  right:20px;
 }
